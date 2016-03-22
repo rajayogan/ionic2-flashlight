@@ -1,0 +1,12 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Home
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+ <h2>Flashlight is {{flashstatus}}</h2>
+  <button fab primary fab-bottom fab-center (click)="LightOn()">
+  <ion-icon name="flash"></ion-icon>
+  </button>
+</ion-content>
